@@ -90,11 +90,23 @@ Gallery cursors are the last returned photo id. Media URLs point at the frontend
 
 ## Deploy to Railway and Vercel
 
-Repository/account access and authorization are needed to publish. No service has been deployed as part of local verification.
+Deployed and smoke-tested on 7 October 2026:
+
+- Frontend: https://google-photos-mvp-lake.vercel.app
+- Backend health: https://googlephotosmvp-production.up.railway.app/api/health
+- GitHub: https://github.com/shreyashf80/GooglePhotosMVP
+
+Railway variables: `CORS_ORIGINS=https://google-photos-mvp-lake.vercel.app`, `DEMO_ASSET_BASE_URL=https://google-photos-mvp-lake.vercel.app`, `PORT=8080`. Vercel Production/Preview uses `NEXT_PUBLIC_API_BASE_URL=https://googlephotosmvp-production.up.railway.app`. Preview origins require their own CORS entry.
+
+Live Chrome smoke passed: 24 loaded gallery images, 12→4 February refinement, d01/success, refresh restoration, chip removal, Rahul→5, outdoor seating→6, snowy drop→12 and nearest 2024→12. Five deployed screenshots are in `implementation/screenshots/deployed/`. The in-app browser blocked Railway requests; Chrome verification succeeded.
+
+Railway currently uses trial credit (dashboard showed 30 days or $5 remaining). Continued hosting after the trial requires the account owner to review its plan. No paid upgrade was made.
+
+For recreating the deployment:
 
 1. Push this project to your chosen Git repository. Do not publish .env files, .venv, node_modules or .next; .gitignore excludes them.
 2. Create a Vercel project using that repository, root directory **frontend**, framework **Next.js**, Node **24.x**, build command `npm run build`. Record its production URL. Vercel's supported runtime guidance: https://vercel.com/docs/functions/runtimes/node-js/node-js-versions.
-3. Create a Railway service from the same repository, root directory **backend**. railway.toml and Procfile specify `uvicorn app.main:app --host 0.0.0.0 --port $PORT` and health `/api/health`; requirements.txt and .python-version are included. No database or volume. Generate its public domain. Railway's FastAPI guide: https://docs.railway.com/guides/fastapi.
+3. Create a Railway service from the same repository, root directory **backend**. Use start command `uvicorn app.main:app --host 0.0.0.0 --port $PORT`, target port `8080` and health path `/api/health`; requirements.txt, Procfile and .python-version are included. Configure these in the Railway dashboard for new services: its current UI reports Config as Code deprecated and unavailable for new opt-ins. The existing railway.toml is retained as a reference. No database or volume. Generate its public domain. Railway's FastAPI guide: https://docs.railway.com/guides/fastapi.
 4. Set Railway variables to the actual frontend origin (no trailing path):
    - `CORS_ORIGINS=https://YOUR-FRONTEND.vercel.app`
    - `DEMO_ASSET_BASE_URL=https://YOUR-FRONTEND.vercel.app`
@@ -107,4 +119,4 @@ Backend env defaults are localhost origins; frontend .env.example contains only 
 
 Photo credits, source pages, Pexels License links and download/edit details are in frontend/public/demo/SOURCES.md and sources.json. Each viewer's info sheet links its source. The dataset's dates, Goa/Mumbai locations and people names are fictional demonstration metadata, clearly marked in the UI/credits; they are not claims about actual stock-photo subjects. No original patient records are used. Runtime loads only bundled local images and fonts.
 
-This is the submission demo, not the research MVP. Neon, uploads, EXIF, tagging/providers/pools, edit/delete, study sessions/export, WHERE and part-of-day hints remain deferred under DEMO-MVP.md. Viewer swiping is omitted; explicit back navigation works. Queries are deterministic metadata searches, not an AI natural-language service. Found state is local and never logged as a research outcome. Public deployment, physical-phone tests and mobile-data latency are unverified until actually exercised.
+This is the submission demo, not the research MVP. Neon, uploads, EXIF, tagging/providers/pools, edit/delete, study sessions/export, WHERE and part-of-day hints remain deferred under DEMO-MVP.md. Viewer swiping is omitted; explicit back navigation works. Queries are deterministic metadata searches, not an AI natural-language service. Found state is local and never logged as a research outcome. Public deployment and live Chrome smoke are verified. Physical-phone tests and mobile-data latency remain unverified.
