@@ -1,0 +1,11 @@
+export type Concept = { id: string; label: string; kind: "thing" | "time"; synonyms: string[]; year?: number | null; month?: number | null };
+export type TimeFilter = { facet: "when"; level: "year" | "month" | "day"; label: string; start: string; end: string };
+export type ValueFilter = { facet: "who" | "also"; value: string; label: string };
+export type Filter = TimeFilter | ValueFilter;
+export type PhotoCard = { id: string; thumb_url: string; taken_at: string | null; tag_status: string };
+export type PhotoDetail = PhotoCard & { full_url: string; date_source: string; city: string; setting: string; caption: string; people_names: string[] };
+export type HintRow = { facet: "when" | "who" | "also"; label: string; values: { label: string; count: number; thumb_url: string; filter: Filter }[] };
+export type DropAction = { type: "remove_concept"; concept_id: string } | { type: "remove_filter"; index: number } | { type: "replace_concept"; concept_id: string; with: Concept };
+export type DropOption = { kind: "drop" | "nearest"; label: string; count: number; action: DropAction };
+export type SearchRequest = { query: string; removed_concept_ids: string[]; concept_overrides: Concept[]; filters: Filter[]; hints_on: boolean; want_drop: boolean };
+export type SearchResponse = { concepts: Concept[]; n_results: number; results: PhotoCard[]; hints: HintRow[]; drop: DropOption[]; untagged_count: number; message: string | null };

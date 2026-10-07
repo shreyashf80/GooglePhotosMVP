@@ -1,0 +1,562 @@
+[
+  {
+    "id": "d01",
+    "image_path": "/demo-photos/d01.jpg",
+    "taken_at": "2024-02-18T16:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "rahul"
+    ],
+    "people_count": 2,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "coffee",
+      "outdoor seating"
+    ],
+    "caption": "Friends sharing coffee at an outdoor cafe table.",
+    "event": "meal",
+    "part_of_day": "afternoon",
+    "source_id": "pexels-4921081"
+  },
+  {
+    "id": "d02",
+    "image_path": "/demo-photos/d02.jpg",
+    "taken_at": "2024-02-18T14:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "rahul"
+    ],
+    "people_count": 4,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "coffee",
+      "pastry"
+    ],
+    "caption": "Friends sharing cake and drinks in a cozy cafe.",
+    "event": "meal",
+    "part_of_day": "afternoon",
+    "source_id": "pexels-4921520"
+  },
+  {
+    "id": "d03",
+    "image_path": "/demo-photos/d03.jpg",
+    "taken_at": "2024-02-18T15:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "meera"
+    ],
+    "people_count": 2,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "coffee",
+      "outdoor seating"
+    ],
+    "caption": "A conversation over coffee at a sidewalk cafe.",
+    "event": "meal",
+    "part_of_day": "afternoon",
+    "source_id": "pexels-36765307"
+  },
+  {
+    "id": "d04",
+    "image_path": "/demo-photos/d04.jpg",
+    "taken_at": "2024-02-18T16:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "ananya"
+    ],
+    "people_count": 4,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table"
+    ],
+    "caption": "Friends laughing together around a cafe table.",
+    "event": "meal",
+    "part_of_day": "afternoon",
+    "source_id": "pexels-36729758"
+  },
+  {
+    "id": "d05",
+    "image_path": "/demo-photos/d05.jpg",
+    "taken_at": "2024-04-12T17:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "rahul"
+    ],
+    "people_count": 2,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "coffee",
+      "outdoor seating"
+    ],
+    "caption": "Coffee and conversation in a sunny garden.",
+    "event": "meal",
+    "part_of_day": "evening",
+    "source_id": "pexels-27177749"
+  },
+  {
+    "id": "d06",
+    "image_path": "/demo-photos/d06.jpg",
+    "taken_at": "2024-04-12T18:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "rahul"
+    ],
+    "people_count": 2,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "coffee",
+      "pastry"
+    ],
+    "caption": "A cafe catch-up with pastries and warm drinks.",
+    "event": "meal",
+    "part_of_day": "evening",
+    "source_id": "pexels-2040750"
+  },
+  {
+    "id": "d07",
+    "image_path": "/demo-photos/d07.jpg",
+    "taken_at": "2024-04-12T12:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "ananya"
+    ],
+    "people_count": 4,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "coffee"
+    ],
+    "caption": "Friends enjoying warm drinks in a bright cafe.",
+    "event": "meal",
+    "part_of_day": "afternoon",
+    "source_id": "pexels-39910783"
+  },
+  {
+    "id": "d08",
+    "image_path": "/demo-photos/d08.jpg",
+    "taken_at": "2024-04-12T13:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "meera"
+    ],
+    "people_count": 2,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "outdoor seating"
+    ],
+    "caption": "A cold orange juice at an outdoor cafe.",
+    "event": "meal",
+    "part_of_day": "afternoon",
+    "source_id": "pexels-6529716"
+  },
+  {
+    "id": "d09",
+    "image_path": "/demo-photos/d09.jpg",
+    "taken_at": "2024-11-09T14:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "rahul"
+    ],
+    "people_count": 2,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "coffee",
+      "outdoor seating"
+    ],
+    "caption": "A quiet coffee break with a friend outside.",
+    "event": "meal",
+    "part_of_day": "afternoon",
+    "source_id": "pexels-29264120"
+  },
+  {
+    "id": "d10",
+    "image_path": "/demo-photos/d10.jpg",
+    "taken_at": "2024-11-09T15:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "ananya"
+    ],
+    "people_count": 4,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "coffee"
+    ],
+    "caption": "Friends at a modern cafe table with drinks.",
+    "event": "meal",
+    "part_of_day": "afternoon",
+    "source_id": "pexels-39910786"
+  },
+  {
+    "id": "d11",
+    "image_path": "/demo-photos/d11.jpg",
+    "taken_at": "2024-11-09T16:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "ananya"
+    ],
+    "people_count": 2,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "outdoor seating"
+    ],
+    "caption": "Friends toasting with orange juice at brunch.",
+    "event": "meal",
+    "part_of_day": "afternoon",
+    "source_id": "pexels-6529714"
+  },
+  {
+    "id": "d12",
+    "image_path": "/demo-photos/d12.jpg",
+    "taken_at": "2024-11-09T17:00:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "cafe",
+    "people_names": [
+      "meera"
+    ],
+    "people_count": 2,
+    "tags": [
+      "cafe",
+      "goa",
+      "friends",
+      "travel",
+      "table",
+      "pastry"
+    ],
+    "caption": "A pastry break in a cozy cafe.",
+    "event": "meal",
+    "part_of_day": "evening",
+    "source_id": "pexels-9509764"
+  },
+  {
+    "id": "d13",
+    "image_path": "/demo-photos/d13.jpg",
+    "taken_at": "2024-03-21T18:13:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "beach",
+    "people_names": [],
+    "people_count": 0,
+    "tags": [
+      "beach",
+      "sea",
+      "sunset",
+      "travel",
+      "sand"
+    ],
+    "caption": "Evening waves beneath a glowing sunset.",
+    "event": "trip",
+    "part_of_day": "evening",
+    "source_id": "pexels-34114802"
+  },
+  {
+    "id": "d14",
+    "image_path": "/demo-photos/d14.jpg",
+    "taken_at": "2023-03-21T18:14:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "beach",
+    "people_names": [],
+    "people_count": 0,
+    "tags": [
+      "beach",
+      "sea",
+      "sunset",
+      "travel",
+      "sand",
+      "palm tree"
+    ],
+    "caption": "Palm trees leaning over a rocky coast.",
+    "event": "trip",
+    "part_of_day": "evening",
+    "source_id": "pexels-14581330"
+  },
+  {
+    "id": "d15",
+    "image_path": "/demo-photos/d15.jpg",
+    "taken_at": "2024-03-21T18:15:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "beach",
+    "people_names": [],
+    "people_count": 0,
+    "tags": [
+      "beach",
+      "sea",
+      "sunset",
+      "travel",
+      "sand",
+      "palm tree"
+    ],
+    "caption": "A golden sunset beyond tropical palm trees.",
+    "event": "trip",
+    "part_of_day": "evening",
+    "source_id": "pexels-28215669"
+  },
+  {
+    "id": "d16",
+    "image_path": "/demo-photos/d16.jpg",
+    "taken_at": "2023-03-21T18:16:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "beach",
+    "people_names": [],
+    "people_count": 0,
+    "tags": [
+      "beach",
+      "sea",
+      "sunset",
+      "travel",
+      "sand",
+      "boat"
+    ],
+    "caption": "A fishing boat on the beach at sunset.",
+    "event": "trip",
+    "part_of_day": "evening",
+    "source_id": "pexels-35563663"
+  },
+  {
+    "id": "d17",
+    "image_path": "/demo-photos/d17.jpg",
+    "taken_at": "2024-03-21T18:17:00",
+    "location": "Goa",
+    "city": "goa",
+    "setting": "beach",
+    "people_names": [
+      "rahul",
+      "ananya"
+    ],
+    "people_count": 3,
+    "tags": [
+      "beach",
+      "sea",
+      "sunset",
+      "travel",
+      "sand"
+    ],
+    "caption": "Friends watching the sea from a rocky shore.",
+    "event": "trip",
+    "part_of_day": "evening",
+    "source_id": "pexels-33793098"
+  },
+  {
+    "id": "d18",
+    "image_path": "/demo-photos/d18.jpg",
+    "taken_at": "2024-07-02T10:18:00",
+    "location": "Mumbai",
+    "city": "mumbai",
+    "setting": "home",
+    "people_names": [],
+    "people_count": 0,
+    "tags": [
+      "medicine",
+      "medication",
+      "illness",
+      "pill",
+      "bottle"
+    ],
+    "caption": "A medicine bottle and colorful tablets on blue.",
+    "event": "everyday",
+    "part_of_day": "morning",
+    "source_id": "pexels-9155926"
+  },
+  {
+    "id": "d19",
+    "image_path": "/demo-photos/d19.jpg",
+    "taken_at": "2024-07-02T10:19:00",
+    "location": "Mumbai",
+    "city": "mumbai",
+    "setting": "home",
+    "people_names": [],
+    "people_count": 1,
+    "tags": [
+      "medicine",
+      "medication",
+      "illness",
+      "prescription",
+      "paper"
+    ],
+    "caption": "A medicine bottle and consultation paperwork.",
+    "event": "everyday",
+    "part_of_day": "morning",
+    "source_id": "pexels-11370618"
+  },
+  {
+    "id": "d20",
+    "image_path": "/demo-photos/d20.jpg",
+    "taken_at": "2024-07-02T10:20:00",
+    "location": "Mumbai",
+    "city": "mumbai",
+    "setting": "home",
+    "people_names": [],
+    "people_count": 1,
+    "tags": [
+      "medicine",
+      "medication",
+      "illness",
+      "pill",
+      "bottle"
+    ],
+    "caption": "A healthcare professional holding a blister pack.",
+    "event": "everyday",
+    "part_of_day": "morning",
+    "source_id": "pexels-4989187"
+  },
+  {
+    "id": "d21",
+    "image_path": "/demo-photos/d21.jpg",
+    "taken_at": "2024-07-02T10:21:00",
+    "location": "Mumbai",
+    "city": "mumbai",
+    "setting": "home",
+    "people_names": [],
+    "people_count": 0,
+    "tags": [
+      "medicine",
+      "medication",
+      "illness",
+      "pill",
+      "bottle"
+    ],
+    "caption": "A labeled bottle with scattered medicine tablets.",
+    "event": "everyday",
+    "part_of_day": "morning",
+    "source_id": "pexels-20140030"
+  },
+  {
+    "id": "d22",
+    "image_path": "/demo-photos/d22.jpg",
+    "taken_at": "2024-06-14T19:22:00",
+    "location": "Mumbai",
+    "city": "mumbai",
+    "setting": "home",
+    "people_names": [
+      "ananya",
+      "meera"
+    ],
+    "people_count": 3,
+    "tags": [
+      "cake",
+      "birthday",
+      "friends",
+      "party",
+      "candle"
+    ],
+    "caption": "Friends celebrating with cake and sparklers.",
+    "event": "birthday",
+    "part_of_day": "evening",
+    "source_id": "pexels-27176823"
+  },
+  {
+    "id": "d23",
+    "image_path": "/demo-photos/d23.jpg",
+    "taken_at": "2023-06-14T19:23:00",
+    "location": "Mumbai",
+    "city": "mumbai",
+    "setting": "home",
+    "people_names": [
+      "ananya",
+      "meera"
+    ],
+    "people_count": 3,
+    "tags": [
+      "cake",
+      "birthday",
+      "friends",
+      "party",
+      "candle"
+    ],
+    "caption": "Birthday candles surrounded by friends.",
+    "event": "birthday",
+    "part_of_day": "evening",
+    "source_id": "pexels-33038819"
+  },
+  {
+    "id": "d24",
+    "image_path": "/demo-photos/d24.jpg",
+    "taken_at": "2024-06-14T19:24:00",
+    "location": "Mumbai",
+    "city": "mumbai",
+    "setting": "cafe",
+    "people_names": [
+      "ananya",
+      "meera"
+    ],
+    "people_count": 3,
+    "tags": [
+      "cake",
+      "birthday",
+      "friends",
+      "party",
+      "candle"
+    ],
+    "caption": "Friends taking a birthday selfie with cake.",
+    "event": "birthday",
+    "part_of_day": "evening",
+    "source_id": "pexels-32333374"
+  }
+]
